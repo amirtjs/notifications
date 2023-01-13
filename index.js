@@ -88,7 +88,7 @@ setInterval(()=>{
             document.querySelector(`button[data-item="${key}"]`).closest('.notification__item').classList.add('active')
             if(!document.querySelector('.audioAlert')){
 
-                document.querySelector('body').insertAdjacentHTML("afterbegin", '<audio loop class="audioAlert" autoplay="autoplay" src="/android-notification-sound-effect-_earrape_-copia.mp3"></audio>')
+                document.querySelector('body').insertAdjacentHTML("afterbegin", '<audio loop class="audioAlert" autoplay="autoplay" src="./android-notification-sound-effect-_earrape_-copia.mp3"></audio>')
                 
             }
         }
